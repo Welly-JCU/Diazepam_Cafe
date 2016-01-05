@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="styles/index_styles.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+#nav_bar.sticky {
+     position: fixed;
+     top: 0;
+}
+</style>
+
+<script type="text/javascript">
+function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#sticky_anchor').offset().top;
+    if (window_top > div_top)
+        $('#nav_bar').addClass('sticky');
+    else
+        $('#nav_bar').removeClass('sticky');
+}
+
+$(function() {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});
+</script>
+
+</head>
+
+<body>
+<div id="containter">
+	<div id="banner">
+    Diazepam Cafe
+    </div>
+    <div id="sticky_anchor"></div>
+    <div id="nav_bar">
+    	<ul>
+        	<li><a href=#home>Home</a></li>
+            <li><a href=#products>Products</a></li>
+            <li><a href=#events>Events</a></li>
+            <li><a href=#services>Services</a></li>
+            <li>FAQ</li>
+            <li><a href=#about>About</a></li>
+            <li><a href=#footer>Contact</a></li>
+        </ul>
+    </div>
+	<div id="home">
+    Home
+    </div>
+	<div id="products">
+    Products
+    </div>
+	<div id="events">
+    Events
+    </div>
+	<div id="services">
+    Services
+    </div>
+	<div id="about">
+    About
+    </div>
+	<div id="footer">
+    Contact
+    </div>
+</div>
+</body>
+</html>

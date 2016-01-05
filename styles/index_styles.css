@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	font: 40px
+}
+
+#home {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#products {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#events {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#services {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#about {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#footer {
+	display: block;
+	background-color: #E7DFD6;
+	height: 1440px;
+}
+
+#nav_bar {
+	background-color: #FFF;
+	float: right;
+	text-align: right;
+	font-size: 18px;
+}
+
+#nav_bar ul {
+    list-style-type: none;
+	float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+#nav_bar li {
+	float: left;
+	padding: 14px 16px;
+	display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
