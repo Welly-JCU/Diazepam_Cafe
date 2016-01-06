@@ -52,7 +52,6 @@ body {
 #nav_bar ul {
     list-style-type: none;
 	float: right;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #FFF;
@@ -66,3 +65,13 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+.nav-placeholder{
+	text-align:right;
+	}
+	
