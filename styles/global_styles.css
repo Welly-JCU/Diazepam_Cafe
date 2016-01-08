@@ -5,10 +5,23 @@ body {
 	margin: 0;
 }
 
+.heading {
+font-family: 'Yellowtail', cursive;	
+}
+
+.subheading {
+font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+	 font-family: 'Lato', sans-serif;
+	}
+
 #nav_bar {
 	background-color: #FFF;
 	float: right;
 	text-align: right;
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	width: 100%;
 	opacity: 0.6;
