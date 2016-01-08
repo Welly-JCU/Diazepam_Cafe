@@ -7,7 +7,7 @@ body {
 
 .heading {
 font-family: 'Yellowtail', cursive;	
-font-size:50px;
+font-size:100px;
 }
 
 .subheading {
@@ -17,9 +17,13 @@ font-family: 'Montserrat', sans-serif;
 .paragraph {
 	 font-family: 'Lato', sans-serif;
 	}
+	
+#banner {
+	background-color: #9FF95C;
+}
 
 #nav_bar {
-	background-color: #FFF;
+	background-color: #9FF95C;
 	float: right;
 	text-align: right;
 	font-family: 'Lato', sans-serif;
@@ -33,7 +37,7 @@ font-family: 'Montserrat', sans-serif;
 	float: right;
     padding: 0;
     overflow: hidden;
-    background-color: #FFF;
+    background-color: #9FF95C;
 }
 
 #nav_bar li {
@@ -56,11 +60,21 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #main_content {
-	background-color: #E7DFD6;
+	background-color: #EAFF9E;
 }
 
 #footer {
-	background-color: #7A7F82;
+	background-color: #1CC65E;
+}
+
+#footer a:link {
+    text-decoration: none;
+	color: black;
+}
+
+#footer a:visited {
+    text-decoration: none;
+	color: black;
 }
 
 body {
@@ -85,14 +99,6 @@ body {
 }
 
 #events {
-	display: block;
-	background-color: #E7DFD6;
-	height: 1440px;
-	font-family: 'Montserrat', sans-serif;
-
-}
-
-#services {
 	display: block;
 	background-color: #E7DFD6;
 	height: 1440px;
