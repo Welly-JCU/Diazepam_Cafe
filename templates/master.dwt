@@ -51,17 +51,17 @@
         </tr>
         <tr>
           <td><div class="paragraph">Phone:  +65-44446677</div></td>
-          <td><img src="../images/facebook.png" width="20" height="20" />  <div class="paragraph"><a href="www.facebook.com/DiazepamSG">Facebook</a></div></td>
+          <td><div class="paragraph"><a href="www.facebook.com/DiazepamSG"><img src="../images/facebook.png" width="20" height="20" />Facebook</a></div></td>
           <td rowspan="2"><img src="../images/logo.png" width="50" height="50" />
           <div class="paragraph">© 2016 Diazepam Café</div></td>
         </tr>
         <tr>
           <td><div class="paragraph">Email: Diazepam@gmail.com</div></td>
-          <td><img src="../images/instagram-logo.png" width="20" height="20" /> <div class="paragraph"><a href="www.instagram.com/DiazepamSG">Instagram</a></div></td>
+          <td><div class="paragraph"><a href="www.instagram.com/DiazepamSG"><img src="../images/instagram-logo.png" width="20" height="20" />Instagram</a></div></td>
         </tr>
         <tr>
           <td><div class="paragraph">Address:  200, Diazepam Crescent, 100000 Singapore</div></td>
-          <td><img src="../images/Twitter_logo.png" width="20" height="20" /> <div class="paragraph"><a href="www.twitter.com/DiazepamSG">Twitter</a></div></td>
+          <td><div class="paragraph"><a href="www.twitter.com/DiazepamSG"><img src="../images/Twitter_logo.png" width="20" height="20" />Twitter</a></div></td>
           <td><div class="paragraph">All Rights Reserved.</div></td>
         </tr>
       </table>
