@@ -27,5 +27,13 @@ jQuery(document).ready(function() {
           }
 		  
 		  });
-	
+
+$("#checkall").on("click", function() {
+  var all = $(this);
+  $('input:checkbox').each(function() {
+       $(this).prop("checked", all.prop("checked"));
+  });
 });
+
+});
+	
