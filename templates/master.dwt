@@ -24,7 +24,7 @@
             <li><a href=#products>Products</a></li>
             <li><a href=#events>Events</a></li>
             <li><a href=#services>Services</a></li>
-            <li><a href=#>FAQ</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
             <li><a href=#about>About</a></li>
             <li><a href=#footer>Contact</a></li>
         </ul>
