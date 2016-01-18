@@ -26,9 +26,9 @@
             <li><a href="../product.html">Products</a></li>
             <li><a href="../events.html">Events</a></li>
             <li><a href="../services.html">Services</a></li>
-            <li><a href="../index.html#faq">FAQ</a></li>
+            <li><a href="../index.html#faqs">FAQ</a></li>
             <li><a href="../index.html#about">About</a></li>
-            <li><a href=#footer>Contact</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -42,6 +42,7 @@
     </div>
 	<!-- TemplateEndEditable -->
 </div>
+    <a name="footer">
     <div id="footer">
       <table width="100%" border="0">
         <tr>
@@ -74,5 +75,6 @@
         </tr>
       </table>
 </div>
+</a>
 </body>
 </html>
