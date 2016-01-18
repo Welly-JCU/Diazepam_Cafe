@@ -16,5 +16,16 @@ jQuery(document).ready(function() {
 	
 	});
 		
+	$('.image-popup').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          mainClass: 'mfp-img-mobile',
+          image: {
+            verticalFit: true,
+			titleSrc: 'title',
+			cursor: 'mfp-zoom-out-cur',
+          }
+		  
+		  });
 	
 });
