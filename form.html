@@ -61,15 +61,15 @@ function MM_validateForm() { //v4.0
 	
     <center>
     <div class="subheading">
-    
+    <br /><br /><br /><br /><br />
 <h1>Online Order</h1>
 </div>
 <div class="paragraph">
 <form action="" method="get">
-<table border="1">
+<table width="528" border="0">
   <tr>
-    <td>Name</td>
-    <td><span id="sprytextfield1">
+    <td width="225">Name</td>
+    <td width="293"><span id="sprytextfield1">
       <label for="name"></label>
       <input name="name" type="text" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
       <span class="textfieldRequiredMsg">A value is required.</span></span></td>
@@ -95,49 +95,102 @@ function MM_validateForm() { //v4.0
       <textarea name="address" cols="45" rows="5" id="address" onblur="MM_validateForm('address','','R');return document.MM_returnValue"></textarea>
       <span class="textareaRequiredMsg">A value is required.</span></span></td>
     </tr>
+</table>
+<br /><br /><br />
+<table width="531" border="0">
   <tr>
-    <td>Flavor</td>
-    <td><span id="sprycheckbox1">
-      <input type="checkbox" name="flavor" id="flavor" />
-      <label for="flavor"></label>
-      Salted Caramel $14.90/500mL<br />
-      <input type="checkbox" name="flavor2" id="flavor2" />
-      <label for="flavor2"></label>
-      Oreo Crush $14.90/500mL<br />
-      <input type="checkbox" name="flavor3" id="flavor3" />
-      <label for="flavor3"></label>
-      Grape Nuts 14.90/500mL<br />
-      <input type="checkbox" name="flavor4" id="flavor4" />
-      <label for="flavor4"></label>
-      Machiatto $13.90/500mL<br />
-      <input type="checkbox" name="flavor5" id="flavor5" />
-      <label for="flavor5"></label>
-      Frappucino $13.90/500mL<br />
-      <input type="checkbox" name="flavor6" id="flavor6" />
-      <label for="flavor6"></label>
-      Dark Chocolate $13.90/500mL<br />
-      <input type="checkbox" name="flavor7" id="flavor7" />
-      <label for="flavor7"></label>
-      Sweet Corn $12.90/500mL<br />
-      <input type="checkbox" name="flavor8" id="flavor8" />
-      <label for="flavor8"></label>
-      Vanilla $12.90/500mL
-<br /><span class="checkboxRequiredMsg">Please make a selection.</span>
-    </span>
-    </td>
-    </tr>
+    <td width="33"><input type="checkbox" name="checkall" id="checkall" />
+      <label for="checkall"></label></td>
+    <td width="167">Item</td>
+    <td width="207">Quantity</td>
+    <td width="106">Price</td>
+  </tr>
   <tr>
-    <td>Description</td>
-    <td><span id="sprytextarea2">
-      <label for="order">Describe how many do you want to order</label><br />
-      <textarea name="order" cols="45" rows="5" id="order"></textarea>
-      <span class="textareaRequiredMsg">A value is required.</span></span></td>
+    <td><input type="checkbox" name="check" id="check" />
+      <label for="check"></label></td>
+    <td>Salted Caramel</td>
+    <td>
+    <span id="sprytextfield5" onfocus="MM_validateForm('quantity','','NinRange0:1000');return document.MM_returnValue">
+    <label for="quantity"></label>
+    <input type="number" name="quantity" id="quantity" />
+    <span class="textfieldRequiredMsg">A value is required.</span></span> <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$14.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check2" id="check2" />
+      <label for="check2"></label></td>
+    <td>Oreo Crush</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$14.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check3" id="check3" />
+      <label for="check3"></label></td>
+    <td>Grape Nuts</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$14.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check4" id="check4" />
+      <label for="check4"></label></td>
+    <td>Machiatto</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$13.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check5" id="check5" />
+      <label for="check5"></label></td>
+    <td>Frappucino</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$13.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check6" id="check6" />
+      <label for="check6"></label></td>
+    <td>Dark Chocolate</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$13.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check7" id="check7" />
+      <label for="check7"></label></td>
+    <td>Sweet Corn</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$12.90</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="check8" id="check8" />
+      <label for="check8"></label></td>
+    <td>Vanilla</td>
+    <td><span id="sprytextfield1">
+      <label for="name"></label>
+      <input name="name" type="number" id="name" onblur="MM_validateForm('name','','R');return document.MM_returnValue" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <td>$12.90</td>
   </tr>
 </table>
-  <p>
+
+
     <input type="submit" name="Submit" id="submit" value="Submit"/>
     <input type="reset" name="reset" id="reset" value="Reset" />
-  </p>
 </form>
 </div>
 </center>
@@ -147,7 +200,8 @@ var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
 var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
 var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
 var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
-var sprytextarea2 = new Spry.Widget.ValidationTextarea("sprytextarea2");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5");
     </script>
     <!-- InstanceEndEditable -->
 </div>
