@@ -114,3 +114,13 @@ font-family: 'Montserrat', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 
 }
+
+.padding {
+width: 1080px;
+margin: auto;
+}
+
+.eventspadding {
+width: 960px;
+margin: auto;
+}
