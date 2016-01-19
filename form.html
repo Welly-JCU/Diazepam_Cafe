@@ -46,19 +46,19 @@ function MM_validateForm() { //v4.0
 <nav>
     <div id="nav_bar">
     	<ul>
-        	<li><a href="index.html">Home</a></li>
+        	<h3><!-- InstanceBeginEditable name="main_content" -->
+			<li><a href="index.html">Home</a></li>
             <li><a href="product.html">Products</a></li>
             <li><a href="events.html">Events</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="index.html#faqs">FAQ</a></li>
+            <li><a class="nav_active" href="services.html">Services</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="#footer">Contact</a></li>
+            </h3>
         </ul>
     </div>
 </nav>
-    <div id="main_content">
-	<!-- InstanceBeginEditable name="main_content" -->
-	
+    <div id="main_content">	
     <center>
     <div class="subheading">
     <br /><br /><br /><br /><br />
@@ -77,9 +77,9 @@ function MM_validateForm() { //v4.0
   <tr>
     <td>Phone number</td>
     <td><span id="sprytextfield2">
-      <label for="number"></label>
-      <input name="number" type="text" id="number" onblur="MM_validateForm('number','','RisNum');return document.MM_returnValue" /> 
-      <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+    <label for="number"></label>
+    <input name="number" type="text" id="number" onblur="MM_validateForm('number','','RisNum');return document.MM_returnValue" maxlength="8" />
+    <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldMinCharsMsg">Minimum number of characters not met.</span></span></td>
     </tr>
   <tr>
     <td>E-mail</td>
@@ -202,9 +202,10 @@ function MM_validateForm() { //v4.0
 </form>
 </div>
 </center>
+<br /><br /><br />
 	<script type="text/javascript">
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
-var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "none", {minChars:8});
 var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
 var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
 var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
