@@ -12,9 +12,10 @@ p {
 .fontsize {
 	font-size:20px;
 }
+
 .heading {
-font-family: 'Yellowtail', cursive;	
-font-size:100px;
+	padding-top: 25px;
+	padding-left: 25px;
 }
 
 .subheading {
