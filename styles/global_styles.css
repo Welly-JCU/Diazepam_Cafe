@@ -5,6 +5,13 @@ body {
 	margin: 0;
 }
 
+p {
+	font-size:20px;
+}
+
+.fontsize {
+	font-size:20px;
+}
 .heading {
 font-family: 'Yellowtail', cursive;	
 font-size:100px;
@@ -19,12 +26,12 @@ font-family: 'Montserrat', sans-serif;
 	}
 	
 #banner {
-	background-color: #9FF95C;
+	background-color: #FFA6C9;
 	width:100%;
 }
 
 nav {
-	background-color: #9FF95C;
+	background-color: #FFA6C9;
 	float: right;
 	text-align: right;
 	font-family: 'Montserrat', sans-serif;
@@ -37,7 +44,7 @@ nav ul {
 	float: right;
     padding: 0;
     overflow: hidden;
-    background-color: #9FF95C;
+    background-color: #FFA6C9;
 }
 
 nav li {
@@ -60,12 +67,12 @@ nav a:visited:not(.nav_active) {
 }
 
 nav a:hover:not(.nav_active) {
-	color: #00BFBD;
+	color: white;
 }
 
 a.nav_active {
 	text-decoration: none;
-	color: #00BFBD;
+	color: white;
 }
 
 .fixed {
@@ -79,12 +86,13 @@ a.nav_active {
 }
 
 #main_content {
-	background-color: #EAFF9E;
+	background-color: white;
 	width:100%;
+	font-size:20px;
 }
 
 #footer {
-	background-color: #1CC65E;
+	background-color: #FF69B4;
 	width:100%;
 	padding-top:2em;
 	padding-bottom:2em;
@@ -107,4 +115,22 @@ margin: auto;
 .eventspadding {
 width: 960px;
 margin: auto;
+}
+
+.feedback_color {
+	color: white;
+}
+
+.more a:link {
+    text-decoration: none;
+	color: black;
+}
+
+.more a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+.more a:hover {
+	color: #FF69B4;
 }
