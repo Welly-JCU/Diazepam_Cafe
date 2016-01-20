@@ -5,26 +5,35 @@ body {
 	margin: 0;
 }
 
+p {
+	font-size: 20px;
+}
+
+.text {
+	font-size: 24px;
+}
+
 .heading {
-font-family: 'Yellowtail', cursive;	
-font-size:100px;
+	font-family: 'Yellowtail', cursive;	
+	font-size:100px;
 }
 
 .subheading {
-font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .paragraph {
 	 font-family: 'Lato', sans-serif;
+	 font-size: 20px;
 	}
 	
 #banner {
-	background-color: #9FF95C;
+	background-color: #FFA6C9;
 	width:100%;
 }
 
 nav {
-	background-color: #9FF95C;
+	background-color: #FFA6C9;
 	float: right;
 	text-align: right;
 	font-family: 'Montserrat', sans-serif;
@@ -37,7 +46,7 @@ nav ul {
 	float: right;
     padding: 0;
     overflow: hidden;
-    background-color: #9FF95C;
+    background-color: #FFA6C9;
 }
 
 nav li {
@@ -60,12 +69,12 @@ nav a:visited:not(.nav_active) {
 }
 
 nav a:hover:not(.nav_active) {
-	color: #00BFBD;
+	color: white;
 }
 
 a.nav_active {
 	text-decoration: none;
-	color: #00BFBD;
+	color: white;
 }
 
 .fixed {
@@ -78,13 +87,8 @@ a.nav_active {
 	text-align:right;
 }
 
-#main_content {
-	background-color: #EAFF9E;
-	width:100%;
-}
-
 #footer {
-	background-color: #1CC65E;
+	background-color: #FF69B4;
 	width:100%;
 	padding-top:2em;
 	padding-bottom:2em;
@@ -102,7 +106,7 @@ a.nav_active {
 
 #home {
 	display: block;
-	background-color: #EAFF9E;
+	background-color: white;
 	width:100%;
 	height: 1000px;
 	font-family: 'Montserrat', sans-serif;
@@ -110,7 +114,7 @@ a.nav_active {
 
 #products {
 	display: block;
-	background-color: #EAFFCA;
+	background-color: #F4C2C2;
 	width:100%;
 	height: 700px;
 	font-family: 'Montserrat', sans-serif;
@@ -118,7 +122,7 @@ a.nav_active {
 
 #events {
 	display: block;
-	background-color: #EAFF9E;
+	background-color: white;
 	width:100%;
 	height: 850px;
 	font-family: 'Montserrat', sans-serif;
@@ -126,7 +130,7 @@ a.nav_active {
 
 #services {
 	display: block;
-	background-color: #EAFFCA;
+	background-color: #F4C2C2;
 	width:100%;
 	height: 1150px;
 	font-family: 'Montserrat', sans-serif;
@@ -134,15 +138,15 @@ a.nav_active {
 
 #faq {
 	display: block;
-	background-color: #EAFF9E;
+	background-color: white;
 	width:100%;
-	height: 1150px;
+	height: 1440px;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #about {
 	display: block;
-	background-color: #EAFFCA;
+	background-color: #F4C2C2;
 	width:100%;
 	height: 700px;
 	font-family: 'Montserrat', sans-serif;
@@ -158,16 +162,24 @@ a.nav_active {
 	color: black;
 }
 
+.more a:hover {
+	color: #FF69B4;
+}
+
 .content {
 	padding: 7em;
 }
 
 .padding {
-width: 1080px;
-margin: auto;
+	width: 1080px;
+	margin: auto;
 }
 
 .eventspadding {
-width: 960px;
-margin: auto;
+	width: 960px;
+	margin: auto;
+}
+
+.feedback_color {
+	color: white;
 }
